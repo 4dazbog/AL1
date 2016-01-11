@@ -80,7 +80,7 @@ app.post('/upload', function(req,res,next) {
                                 console.log("upload ok");
                                 res.sendfile("data/neural_olgamayer.png");
                         };
-                     } (res), 1000 );
+                     } (res), 5000 );
 
   });
 
