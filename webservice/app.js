@@ -23,7 +23,7 @@ app.post('/login', function(req, res) {
 
     if ( req.body.username == 'test' && req.body.password == 'test' )
     {
-    	res.end("login ok.");
+    	res.end("login ok, session=FAFAFAFA");
     }
     else
     {
